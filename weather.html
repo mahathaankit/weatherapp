@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="conntainer">
+        <div class="heading">
+
+            <div class="location">
+                <input type="text" placeholder=" Enter Your Location" class="InputBox">
+                <button class="fa-solid fa-magnifying-glass" id="search"></button>
+            </div>
+        </div>
+        <div class="locationf">
+            <h1>OPPS, Location not found!!!</h1>
+            <img src="alert.png" alt="404 Error">
+        </div>
+        <div class="weathercontent">
+            <img src="cloudy.png" alt="error" class="weatherimages">
+            <div class="weatherdata">
+                <p class="temp">0<sup>°C</sup></p>
+                <p class="weatherdescription">Cloudy</p>
+            </div>
+            <div class="weatherdetails">
+                <div class="humidity">
+                    <i class="fa-solid fa-droplet"></i>
+                    <div class="text">
+                        <span id="humidity">45%</span>
+                        <p>Humidity</p>
+                    </div>
+
+                </div>
+                <div class="Wind">
+                    <i class="fa-solid fa-wind"></i>
+                    <div class="text">
+                        <span id="Windspeed">10Kmh</span>
+                        <p>WindSpeed</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/d1fa84e604.js" crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
